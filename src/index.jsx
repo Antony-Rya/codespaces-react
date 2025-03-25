@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './Components/App/App';
 import reportWebVitals from './reportWebVitals';
+import Aula from './Components/Aula/Aula'
+import BoasVindas from './Components/BoasVindas/BoasVindas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
+    <Aula/>
+    <BoasVindas/>
   </React.StrictMode>
 );
 
