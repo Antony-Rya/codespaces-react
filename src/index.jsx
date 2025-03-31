@@ -9,9 +9,8 @@ import BoasVindas from './Components/BoasVindas/BoasVindas';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
     <Aula/>
-    <BoasVindas/>
+
   </React.StrictMode>
 );
 

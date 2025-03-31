@@ -1,10 +1,15 @@
 import './Aula.css'
-
+import Header from '../Header/Header';
+import Card from '../Card/Card';
+import Mensagem from '../Mensagem/Mensagem';
 function Aula(){
     return (
-        <h1>
-            <p>Web 2 Meió Disciplina que tá tendo.</p>
-        </h1>
+        <div>
+            <Mensagem nome = 'Antony' idade = {23} premium = {false} />
+            
+
+        </div>
+        
     );
 }
 
